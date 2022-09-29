@@ -1,3 +1,4 @@
+# -- coding: utf-8 --
 def f(a,b,l,n):
     p = (a * 7) + (l * 2) + (6 * b)
     print(p)

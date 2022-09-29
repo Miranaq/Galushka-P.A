@@ -1,3 +1,4 @@
+# -- coding: utf-8 --
 n = int(input())
 mns = n
 hrs = mns // 60

@@ -1,3 +1,4 @@
+# -- coding: utf-8 --
 def f(a, b, c):
     if a == b and a == c and b == c:
         print('3')
