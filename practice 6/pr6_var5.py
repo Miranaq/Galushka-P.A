@@ -1,3 +1,4 @@
+# -- coding: utf-8 --
 text = input()
 new_text = ''
 for a in text:
