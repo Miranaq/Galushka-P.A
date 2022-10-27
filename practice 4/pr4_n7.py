@@ -1,3 +1,4 @@
+# -- coding: utf-8 --
 n=int(input())
 fact=1
 K=0
