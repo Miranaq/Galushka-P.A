@@ -3,9 +3,9 @@ from tkinter import*
 import json
 import requests
 def clicked():
-    username = txt.get()
-    url = f"https://api.github.com/users/{username}"
-    user_data = requests.get(url).json()
+    username=txt.get()
+    url=f"https://api.github.com/users/{username}"
+    user_data=requests.get(url).json()
     with open(r"C:\Users\user\Desktop\Galushka.txt","w") as file:
         if 'company' in user_data:
             file.write(f"'company': {user_data['company']}" + '\n')
