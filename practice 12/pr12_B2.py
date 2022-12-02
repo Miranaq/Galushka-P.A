@@ -1,7 +1,7 @@
 # -- coding: utf-8 --
 a = int(input())
+m = []
 def f(x):
-    m = []
     m.append(a)
     while str(a) != '0':
         b = int(input())
