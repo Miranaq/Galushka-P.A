@@ -1,12 +1,16 @@
 # -- coding: utf-8 --
-def function():
-    a=int(input())
-    def f(a):
-        b = a
-        c = 0
-        for i in range(1, b + 1):
-            if b % i == 0:
-                c = c+1
-        return 'YES' if c == 2 else 'NO'
-    print(f(a))
-function()
+def func(A): 
+    global d ; global k 
+    if d == A and k > 0: return print("Yes") 
+    if (d < A and d > 1 and A % d== 0): 
+        print("No") 
+        return  
+    elif( d < A and d > 1): 
+        d+=1 
+        k+=1 
+        return func(A) 
+ 
+d = 2 
+A = int(input())
+k=0 
+func(A)
